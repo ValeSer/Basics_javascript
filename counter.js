@@ -5,4 +5,7 @@ const increment = () => {
   console.log(counter);
 }
 
-setInterval(increment, 1000);
+let interval = setInterval(increment, 1000);
+setTimeout(() => {
+  clearInterval(interval);
+}, 5100);

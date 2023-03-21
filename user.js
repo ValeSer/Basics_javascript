@@ -9,7 +9,7 @@ class User {
 
   getIntroduction() {
     return `Hi, my name is ${this.name}`;
-}
+  }
 }
 
 module.exports = User;
